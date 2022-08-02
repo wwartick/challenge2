@@ -17,5 +17,3 @@ https://imgur.com/25IDMPA
 ## Contribution
 Made with ❤️ by william Wartick
 
-
-https://wwartick.github.io/challenge2/ 
