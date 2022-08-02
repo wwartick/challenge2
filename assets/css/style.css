@@ -41,13 +41,14 @@ header nav ul a{
 /* HEADER END */
 
 /* ABOUT ME SECTION START */
+
 .about-me{
-    padding: 30px 30px;
+    padding: 20px 10px 10px 30px;
     display: flex;
     justify-content: space-between;
 }
 .about-me h2{
-    padding:10px 20px 10px 50px;
+    padding:10px 20px 10px 52px;
 }
 
 .selfie{
@@ -65,18 +66,87 @@ header nav ul a{
     padding: 20px 30px;
     display: flex;
     text-align: left;
-
 }
 
 .about-body p{
-    
     font-size: 20px;
     line-height: 1.3;
-
 }
+
 /* ABOUT ME SECTION END */
 
+/* PROJECTS SECTION START */
 
+.projects{
+    padding: 20px 30px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.projects h2{
+    padding:10px 20px 10px 00px;
+}
+
+.projects-container{
+    margin-left: 10px;
+
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+}
+
+.main-project{
+    border: 10px solid lightblue;
+    position: relative;
+}
+
+.main-project p{
+    position: absolute;
+    bottom: 5%;
+}
+
+.main-project img{
+    background-size: cover;
+    background-position: center;
+    flex: 1 12%;
+    height:100%;
+    width:100%;
+    opacity: 25%;
+}
+
+.smaller-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small-project{
+    margin-top: 10px;
+    border: 5px solid lightblue;
+    position: relative;
+    width: 49%;
+
+}
+
+.small-project p{
+    position: absolute;
+    bottom: 5%;
+}
+
+.small-project img{
+   float:left;
+    height:100%;
+    width:100%;
+    object-fit: scale-down;
+    opacity: 25%;
+}
+
+
+
+/* PROJECTS SECTION END */
 
 .section-title{
     color: maroon;
@@ -85,8 +155,19 @@ header nav ul a{
     margin: 0;
     border-right: 3px solid maroon;
     text-align: right;
-    align-items:center
+
 }
+
+.captions{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    border: 5px solid lightblue;
+    border-left: 0px;
+    padding: 10px 5px;
+    background-color: lightblue; 
+}
+
 
 .flex-row{
 
